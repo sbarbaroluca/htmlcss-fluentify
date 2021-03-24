@@ -1,0 +1,140 @@
+/* common */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.float-left {
+    float: left;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.list-inline {
+    list-style: none;
+}
+.list-inline > li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.list-inline a:not(.btn) {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.list-inline a:not(.btn):hover {
+    color: #7cbb02;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.list-inline a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.list-inline a::after {
+    color: #7cbb02;
+}
+
+/* pulsanti */
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.btn-lg {
+    padding: 20px;
+}
+.btn-blue {
+    background-color: #2A4F75;
+    border: 1px solid white;
+}
+.btn-blue:hover {
+    background-color: white;
+    color: #2A4F75;
+}
+
+.btn-green {
+    background-color: #7cbb02;
+    border: 1px solid #7cbb02;
+}
+.btn-green:hover {
+    background-color: white;
+    color: #7cbb02;
+}
+
+/* header */
+header {
+    height: 550px;
+    background-color: #2A4F75;
+    background-image: url('../img/background-header.png');
+    background-position: 112% 106%;
+    background-size: 65% auto;
+    background-repeat: no-repeat;
+}
+
+.header-nav {
+    height: 80px;
+    line-height: 80px;
+}
+
+.header-logo {
+    width: 15%;
+    height: 100%;
+}
+.header-logo img {
+    vertical-align: middle
+}
+
+.nav-left {
+    width: 45%;
+    height: 100%;
+    text-align: left;
+}
+
+.nav-right {
+    width: 40%;
+    height: 100%;
+    text-align: right;
+}
+
+.jumbotron {
+    position: relative;
+    height: 470px;
+}
+.jumbotron-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
