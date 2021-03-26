@@ -169,6 +169,7 @@ h2 {
     float: left;
     width: 25%;
     padding: 10px;
+    margin: 50px;
 }
 
 .testo-immagini {
@@ -177,4 +178,11 @@ h2 {
 
 p {
     opacity: 40%;
+    
+}
+
+.immagini {
+    width: 200px;
+    
+
 }
