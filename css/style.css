@@ -141,23 +141,20 @@ h1 {
 
 /* main */
 .bars {
-    height: 156px;
+    padding:30px ;
     width: 100%;
     background-color: #D3D3D3;
+    text-align: center;
 }
 
 h2 {
-    text-align: center;
     font-size: 30px;
-    line-height: 100px;
     font-weight:lighter;
 }
 
-.testo {
-    opacity: 40%;
-    text-align: center;
+.color-grey {
+    color: grey;
     font-weight: normal;
-    line-height: 1px;
 }
 
 .row {
@@ -166,23 +163,27 @@ h2 {
 }
 
 .left {
+    text-align: center;
     float: left;
     width: 25%;
     padding: 10px;
     margin: 50px;
 }
 
-.testo-immagini {
-    color: #8BC235;
-}
-
 p {
-    opacity: 40%;
-    
+    opacity: 40%;  
 }
 
 .immagini {
-    width: 200px;
-    
+    height: 200px;
+    margin-bottom: 20px;
+}
 
+.left hr {
+    margin: 20px 35%;
+}
+
+.left h2 {
+    color: #8BC235;
+    height: 105px;
 }
